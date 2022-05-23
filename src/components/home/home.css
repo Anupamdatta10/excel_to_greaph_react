@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 8%;
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    width:50%;
+    height: 80%;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    background-color: black;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.navlist{
+    margin-top: 1.4%;
+    width:50%;
+    display:flex;
+}
+.navlist li{
+    margin-left: 3%;
+    list-style: none;
+    
+}
+.navlist li a{
+    text-decoration: none;
+    font-size: 130%;
+    color: white;
+}
+
+.btn{
+    width: 45%;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 8px;
+    background:white;
+    color: blue;
+    font-size: 100%;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: blue;
+    color:white;
+}
+.back{
+    overflow: hidden;
+   /* background-image: url("../img/proto1.jpg");*/
+    background-size: cover;
+}
+.quote{
+    margin-top: 3%;
+    margin-left: 12%;
+    font-family: 'Roboto Flex', sans-serif;
+    color: crimson;
+    font-size: 350%;
+}
+.blank{
+    margin-top: 33%;
+}
+.import{
+    width: 30%;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 8px;
+    background: none;
+    color: crimson;
+    font-size: 150%;
+    cursor: pointer;
+    margin-left: 35%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+}
+.import:hover{
+    background-color: crimson;
+    color: white;
+}
+.blank2{
+    margin-top: 33%;
+}
